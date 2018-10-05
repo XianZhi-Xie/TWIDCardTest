@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB77A0111FFF614700B1F366 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB77A0101FFF614700B1F366 /* AppDelegate.m */; };
+		DB77A0141FFF614700B1F366 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB77A0131FFF614700B1F366 /* ViewController.m */; };
+		DB77A0171FFF614700B1F366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB77A0151FFF614700B1F366 /* Main.storyboard */; };
+		DB77A0191FFF614700B1F366 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB77A0181FFF614700B1F366 /* Assets.xcassets */; };
+		DB77A01C1FFF614700B1F366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB77A01A1FFF614700B1F366 /* LaunchScreen.storyboard */; };
+		DB77A01F1FFF614800B1F366 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB77A01E1FFF614800B1F366 /* main.m */; };
+		DB77A0291FFF614800B1F366 /* TWIDCardTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB77A0281FFF614800B1F366 /* TWIDCardTestTests.m */; };
+		DB77A0341FFF614800B1F366 /* TWIDCardTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB77A0331FFF614800B1F366 /* TWIDCardTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB77A0251FFF614800B1F366 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB77A0041FFF614700B1F366 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB77A00B1FFF614700B1F366;
+			remoteInfo = TWIDCardTest;
+		};
+		DB77A0301FFF614800B1F366 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB77A0041FFF614700B1F366 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB77A00B1FFF614700B1F366;
+			remoteInfo = TWIDCardTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB77A00C1FFF614700B1F366 /* TWIDCardTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWIDCardTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB77A00F1FFF614700B1F366 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB77A0101FFF614700B1F366 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB77A0121FFF614700B1F366 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB77A0131FFF614700B1F366 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB77A0161FFF614700B1F366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB77A0181FFF614700B1F366 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB77A01B1FFF614700B1F366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB77A01D1FFF614800B1F366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB77A01E1FFF614800B1F366 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB77A0241FFF614800B1F366 /* TWIDCardTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWIDCardTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB77A0281FFF614800B1F366 /* TWIDCardTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWIDCardTestTests.m; sourceTree = "<group>"; };
+		DB77A02A1FFF614800B1F366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB77A02F1FFF614800B1F366 /* TWIDCardTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TWIDCardTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB77A0331FFF614800B1F366 /* TWIDCardTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TWIDCardTestUITests.m; sourceTree = "<group>"; };
+		DB77A0351FFF614800B1F366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB77A0091FFF614700B1F366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB77A0211FFF614800B1F366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB77A02C1FFF614800B1F366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB77A0031FFF614700B1F366 = {
+			isa = PBXGroup;
+			children = (
+				DB77A00E1FFF614700B1F366 /* TWIDCardTest */,
+				DB77A0271FFF614800B1F366 /* TWIDCardTestTests */,
+				DB77A0321FFF614800B1F366 /* TWIDCardTestUITests */,
+				DB77A00D1FFF614700B1F366 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB77A00D1FFF614700B1F366 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB77A00C1FFF614700B1F366 /* TWIDCardTest.app */,
+				DB77A0241FFF614800B1F366 /* TWIDCardTestTests.xctest */,
+				DB77A02F1FFF614800B1F366 /* TWIDCardTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB77A00E1FFF614700B1F366 /* TWIDCardTest */ = {
+			isa = PBXGroup;
+			children = (
+				DB77A00F1FFF614700B1F366 /* AppDelegate.h */,
+				DB77A0101FFF614700B1F366 /* AppDelegate.m */,
+				DB77A0121FFF614700B1F366 /* ViewController.h */,
+				DB77A0131FFF614700B1F366 /* ViewController.m */,
+				DB77A0151FFF614700B1F366 /* Main.storyboard */,
+				DB77A0181FFF614700B1F366 /* Assets.xcassets */,
+				DB77A01A1FFF614700B1F366 /* LaunchScreen.storyboard */,
+				DB77A01D1FFF614800B1F366 /* Info.plist */,
+				DB77A01E1FFF614800B1F366 /* main.m */,
+			);
+			path = TWIDCardTest;
+			sourceTree = "<group>";
+		};
+		DB77A0271FFF614800B1F366 /* TWIDCardTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB77A0281FFF614800B1F366 /* TWIDCardTestTests.m */,
+				DB77A02A1FFF614800B1F366 /* Info.plist */,
+			);
+			path = TWIDCardTestTests;
+			sourceTree = "<group>";
+		};
+		DB77A0321FFF614800B1F366 /* TWIDCardTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DB77A0331FFF614800B1F366 /* TWIDCardTestUITests.m */,
+				DB77A0351FFF614800B1F366 /* Info.plist */,
+			);
+			path = TWIDCardTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB77A00B1FFF614700B1F366 /* TWIDCardTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB77A0381FFF614800B1F366 /* Build configuration list for PBXNativeTarget "TWIDCardTest" */;
+			buildPhases = (
+				DB77A0081FFF614700B1F366 /* Sources */,
+				DB77A0091FFF614700B1F366 /* Frameworks */,
+				DB77A00A1FFF614700B1F366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TWIDCardTest;
+			productName = TWIDCardTest;
+			productReference = DB77A00C1FFF614700B1F366 /* TWIDCardTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB77A0231FFF614800B1F366 /* TWIDCardTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB77A03B1FFF614800B1F366 /* Build configuration list for PBXNativeTarget "TWIDCardTestTests" */;
+			buildPhases = (
+				DB77A0201FFF614800B1F366 /* Sources */,
+				DB77A0211FFF614800B1F366 /* Frameworks */,
+				DB77A0221FFF614800B1F366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB77A0261FFF614800B1F366 /* PBXTargetDependency */,
+			);
+			name = TWIDCardTestTests;
+			productName = TWIDCardTestTests;
+			productReference = DB77A0241FFF614800B1F366 /* TWIDCardTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DB77A02E1FFF614800B1F366 /* TWIDCardTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB77A03E1FFF614800B1F366 /* Build configuration list for PBXNativeTarget "TWIDCardTestUITests" */;
+			buildPhases = (
+				DB77A02B1FFF614800B1F366 /* Sources */,
+				DB77A02C1FFF614800B1F366 /* Frameworks */,
+				DB77A02D1FFF614800B1F366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB77A0311FFF614800B1F366 /* PBXTargetDependency */,
+			);
+			name = TWIDCardTestUITests;
+			productName = TWIDCardTestUITests;
+			productReference = DB77A02F1FFF614800B1F366 /* TWIDCardTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB77A0041FFF614700B1F366 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "攀领网络科技";
+				TargetAttributes = {
+					DB77A00B1FFF614700B1F366 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					DB77A0231FFF614800B1F366 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB77A00B1FFF614700B1F366;
+					};
+					DB77A02E1FFF614800B1F366 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = DB77A00B1FFF614700B1F366;
+					};
+				};
+			};
+			buildConfigurationList = DB77A0071FFF614700B1F366 /* Build configuration list for PBXProject "TWIDCardTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB77A0031FFF614700B1F366;
+			productRefGroup = DB77A00D1FFF614700B1F366 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB77A00B1FFF614700B1F366 /* TWIDCardTest */,
+				DB77A0231FFF614800B1F366 /* TWIDCardTestTests */,
+				DB77A02E1FFF614800B1F366 /* TWIDCardTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB77A00A1FFF614700B1F366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB77A01C1FFF614700B1F366 /* LaunchScreen.storyboard in Resources */,
+				DB77A0191FFF614700B1F366 /* Assets.xcassets in Resources */,
+				DB77A0171FFF614700B1F366 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB77A0221FFF614800B1F366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB77A02D1FFF614800B1F366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB77A0081FFF614700B1F366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB77A0141FFF614700B1F366 /* ViewController.m in Sources */,
+				DB77A01F1FFF614800B1F366 /* main.m in Sources */,
+				DB77A0111FFF614700B1F366 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB77A0201FFF614800B1F366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB77A0291FFF614800B1F366 /* TWIDCardTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB77A02B1FFF614800B1F366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB77A0341FFF614800B1F366 /* TWIDCardTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB77A0261FFF614800B1F366 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB77A00B1FFF614700B1F366 /* TWIDCardTest */;
+			targetProxy = DB77A0251FFF614800B1F366 /* PBXContainerItemProxy */;
+		};
+		DB77A0311FFF614800B1F366 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB77A00B1FFF614700B1F366 /* TWIDCardTest */;
+			targetProxy = DB77A0301FFF614800B1F366 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB77A0151FFF614700B1F366 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB77A0161FFF614700B1F366 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB77A01A1FFF614700B1F366 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB77A01B1FFF614700B1F366 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB77A0361FFF614800B1F366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB77A0371FFF614800B1F366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB77A0391FFF614800B1F366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BY2A39LR4P;
+				INFOPLIST_FILE = TWIDCardTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.plwlkj.TWIDCardTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB77A03A1FFF614800B1F366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BY2A39LR4P;
+				INFOPLIST_FILE = TWIDCardTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.plwlkj.TWIDCardTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DB77A03C1FFF614800B1F366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BY2A39LR4P;
+				INFOPLIST_FILE = TWIDCardTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.plwlkj.TWIDCardTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TWIDCardTest.app/TWIDCardTest";
+			};
+			name = Debug;
+		};
+		DB77A03D1FFF614800B1F366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BY2A39LR4P;
+				INFOPLIST_FILE = TWIDCardTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.plwlkj.TWIDCardTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TWIDCardTest.app/TWIDCardTest";
+			};
+			name = Release;
+		};
+		DB77A03F1FFF614800B1F366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BY2A39LR4P;
+				INFOPLIST_FILE = TWIDCardTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.plwlkj.TWIDCardTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TWIDCardTest;
+			};
+			name = Debug;
+		};
+		DB77A0401FFF614800B1F366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BY2A39LR4P;
+				INFOPLIST_FILE = TWIDCardTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.plwlkj.TWIDCardTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TWIDCardTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB77A0071FFF614700B1F366 /* Build configuration list for PBXProject "TWIDCardTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB77A0361FFF614800B1F366 /* Debug */,
+				DB77A0371FFF614800B1F366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB77A0381FFF614800B1F366 /* Build configuration list for PBXNativeTarget "TWIDCardTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB77A0391FFF614800B1F366 /* Debug */,
+				DB77A03A1FFF614800B1F366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB77A03B1FFF614800B1F366 /* Build configuration list for PBXNativeTarget "TWIDCardTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB77A03C1FFF614800B1F366 /* Debug */,
+				DB77A03D1FFF614800B1F366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB77A03E1FFF614800B1F366 /* Build configuration list for PBXNativeTarget "TWIDCardTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB77A03F1FFF614800B1F366 /* Debug */,
+				DB77A0401FFF614800B1F366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB77A0041FFF614700B1F366 /* Project object */;
+}
